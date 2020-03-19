@@ -1,6 +1,6 @@
 {
   "name": "bit_autograder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Bryan Wong",
   "bin": {
     "bit_autograder": "./bin/run"

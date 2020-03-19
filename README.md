@@ -19,7 +19,7 @@ $ npm install -g bit_autograder
 $ bit_autograder COMMAND
 running command...
 $ bit_autograder (-v|--version|version)
-bit_autograder/1.0.2 darwin-x64 node-v13.10.1
+bit_autograder/1.0.3 darwin-x64 node-v13.10.1
 $ bit_autograder --help [COMMAND]
 USAGE
   $ bit_autograder COMMAND
@@ -51,22 +51,21 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.3
 
 ## `bit_autograder login`
 
-Describe the command here
+This command is used to login users into our LMS to submit files. 
 
 ```
 USAGE
   $ bit_autograder login
 
 DESCRIPTION
-  ...
-  Extra documentation goes here
+  This command is used to login users into our LMS to submit files. You must login in before submitting.
 ```
 
-_See code: [src/commands/login.js](https://github.com/wongband/bit_autograder/blob/v1.0.2/src/commands/login.js)_
+_See code: [src/commands/login.js](https://github.com/wongband/bit_autograder/blob/v1.0.3/src/commands/login.js)_
 
 ## `bit_autograder submit`
 
-Describe the command here
+This is the command to submit files to our autograder. 
 
 ```
 USAGE
@@ -77,9 +76,11 @@ OPTIONS
   -c, --checkpoint=checkpoint  (required) ID of the checkpoint
 
 DESCRIPTION
-  ...
-  Extra documentation goes here
+  The -c flag is used to indicate the checkpoint you are submitting to. The -a flag is used to indicate the activity 
+  that you are submitting to.
+  Right after that type in the files you want to send. After that the result should be displayed on the LMS and 
+  terminal.
 ```
 
-_See code: [src/commands/submit.js](https://github.com/wongband/bit_autograder/blob/v1.0.2/src/commands/submit.js)_
+_See code: [src/commands/submit.js](https://github.com/wongband/bit_autograder/blob/v1.0.3/src/commands/submit.js)_
 <!-- commandsstop -->
