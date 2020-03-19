@@ -11,7 +11,7 @@
     "@oclif/config": "^1.14.0",
     "@oclif/plugin-help": "^2.2.3",
     "axios": "^0.19.2",
-    "cli-ux": "^5.4.4",
+    "cli-ux": "^5.4.5",
     "form-data": "^3.0.0",
     "fs": "0.0.1-security",
     "netrc-rw": "^1.0.0",
