@@ -57,10 +57,9 @@ class SubmitCommand extends Command {
   }
 }
 
-SubmitCommand.description = `Describe the command here
-...
-Extra documentation goes here
-`
+SubmitCommand.description = `This is the command to submit files to our autograder. 
+The -c flag is used to indicate the checkpoint you are submitting to. The -a flag is used to indicate the activity that you are submitting to.
+Right after that type in the files you want to send. After that the result should be displayed on the LMS and terminal.`
 
 SubmitCommand.flags = {
   checkpoint: flags.integer({ char: "c", required: true, description: "ID of the checkpoint" }),

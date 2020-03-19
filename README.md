@@ -19,7 +19,7 @@ $ npm install -g bit_autograder
 $ bit_autograder COMMAND
 running command...
 $ bit_autograder (-v|--version|version)
-bit_autograder/1.0.1 darwin-x64 node-v13.10.1
+bit_autograder/1.0.2 darwin-x64 node-v13.10.1
 $ bit_autograder --help [COMMAND]
 USAGE
   $ bit_autograder COMMAND
@@ -62,7 +62,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/login.js](https://github.com/wongband/bit_autograder/blob/v1.0.1/src/commands/login.js)_
+_See code: [src/commands/login.js](https://github.com/wongband/bit_autograder/blob/v1.0.2/src/commands/login.js)_
 
 ## `bit_autograder submit`
 
@@ -81,5 +81,5 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/submit.js](https://github.com/wongband/bit_autograder/blob/v1.0.1/src/commands/submit.js)_
+_See code: [src/commands/submit.js](https://github.com/wongband/bit_autograder/blob/v1.0.2/src/commands/submit.js)_
 <!-- commandsstop -->

@@ -35,9 +35,6 @@ class LoginCommand extends Command {
     }
 }
 
-LoginCommand.description = `Describe the command here
-...
-Extra documentation goes here
-`
+LoginCommand.description = `This command is used to login users into our LMS to submit files. You must login in before submitting.`
 
 module.exports = LoginCommand
